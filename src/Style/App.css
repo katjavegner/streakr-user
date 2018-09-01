@@ -1,0 +1,61 @@
+.App {
+  text-align: center;
+}
+.user-logo{
+  border-radius: 50px;
+  width: 100px;
+  height: 100px;
+}
+
+.user-description, .MainPage{
+  background: white;
+  color: #323A45;
+  -webkit-box-shadow: 10px 10px 10px 0px rgba(0,0,0,0.25);
+  -moz-box-shadow: 10px 10px 10px 0px rgba(0,0,0,0.25);
+  box-shadow: 10px 10px 10px 0px rgba(0,0,0,0.25);
+  border-radius: 5px; 
+  padding: 20px;
+}
+
+.user-description, .MainPage{
+  margin:40px;
+  text-align: left;
+}
+
+.userName{
+  font-size: 24px;
+}
+
+.userDescription{
+  padding-top:10px; 
+  font-size: 16px;
+  font-style: italic;
+}
+
+.userData{
+  margin-top: 15px;
+}
+.nav-tabs{
+  border: none;
+  margin-bottom: 20px;
+}
+
+.nav-tabs li{
+  margin-right: 10px;
+}
+
+.nav-tabs>li>a, 
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover{
+  border: none;
+  border-radius: 4px;
+
+}
+.nav-tabs>li>a{
+  border: 1px solid #323A45;
+  color: #323A45;
+  
+}
+.nav-tabs>li.active>a{
+  color: white;
+  background: #323A45;
+}
