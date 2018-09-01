@@ -6,21 +6,79 @@
   width: 100px;
   height: 100px;
 }
+.loginPage{
+  margin-top: 100px;
+}
+h1{
+  color: white;
+  }
 
-.user-description, .MainPage{
+  .user-data{
+    margin: 20px 20px 0 0;
+  }
+.user-description{
   background: white;
   color: #323A45;
+  float: right;
+  display: flex;
+  margin:40px 0;
+  text-align: left;
   -webkit-box-shadow: 10px 10px 10px 0px rgba(0,0,0,0.25);
   -moz-box-shadow: 10px 10px 10px 0px rgba(0,0,0,0.25);
   box-shadow: 10px 10px 10px 0px rgba(0,0,0,0.25);
   border-radius: 5px; 
   padding: 20px;
 }
-
-.user-description, .MainPage{
-  margin:40px;
-  text-align: left;
+.inputClass{
+  box-shadow: none;
+  border: none;
+  padding: 0 0 0 35px;
+  width: 100%;
+  margin: 20px auto;
+  border-bottom: 2px solid #fff;
+  height: 40px;
+  font-size: 15px;
+  background: transparent;
+  outline: none;
+  font-weight: 100;
+  
+  color: white;
 }
+.email-input{
+  background: url(../Img/email.svg) 0 center no-repeat;
+}
+
+button.btn-default{
+  border-radius: 6px;
+    background-color: #ff8340;
+    border-color: #ff8340;
+    color: white;
+    padding: 15px 25px 15px 25px;
+    background-image: none;
+    text-shadow: none;
+    margin: 30px auto;
+    box-shadow: 3.5px 19.7px 25px 0 rgba(255, 131, 64, 0.25);
+}
+
+.MainPage{
+  text-align: center;
+}
+.streakr-name{
+  color: #ff8340;
+  text-transform: uppercase;
+  font-weight: bold;
+  display: block;
+  margin: 10px auto;
+}
+.pass-input{
+  background: url(../Img/pass.svg) 0 center no-repeat;
+}
+input::-webkit-input-placeholder  {
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 1.73; 
+  color: rgba(255, 255, 255); }
+
 
 .userName{
   font-size: 24px;
@@ -34,28 +92,4 @@
 
 .userData{
   margin-top: 15px;
-}
-.nav-tabs{
-  border: none;
-  margin-bottom: 20px;
-}
-
-.nav-tabs li{
-  margin-right: 10px;
-}
-
-.nav-tabs>li>a, 
-.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover{
-  border: none;
-  border-radius: 4px;
-
-}
-.nav-tabs>li>a{
-  border: 1px solid #323A45;
-  color: #323A45;
-  
-}
-.nav-tabs>li.active>a{
-  color: white;
-  background: #323A45;
 }
