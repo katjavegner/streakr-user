@@ -34,7 +34,7 @@ export default  class App extends Component{
 
     }
     render(){
-        console.log(Store.userData)
+
         const {email, password} = this
         const loginPage=(
             <Grid fluid className="App loginPage">
@@ -82,7 +82,7 @@ export default  class App extends Component{
                 <Row className="MainPage">
                 <Col xs={12} >
         
-                    <ExistingBages/>
+                    <ExistingBages />
                  
                 
           

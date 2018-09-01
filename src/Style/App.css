@@ -13,14 +13,36 @@ h1{
   color: white;
   }
 
-  .user-data{
-    margin: 20px 20px 0 0;
+  .user-data {
+    margin: 20px 60px 0 0;
+}
+
+  .user-description{
+    display: flex;
+    width: 100%;
   }
-.user-description{
+.test{
+  margin-bottom: 5px;
+}
+  .Badges{
+    display: block;
+    width: 100%;
+  }
+
+  .badge-logo{
+    width: 24px;
+  }
+
+  .block_collapsible{
+    margin: 30px auto;
+
+    font-size: 18px;
+  }
+.user-description, .Badges{
   background: white;
   color: #323A45;
   float: right;
-  display: flex;
+ 
   margin:40px 0;
   text-align: left;
   -webkit-box-shadow: 10px 10px 10px 0px rgba(0,0,0,0.25);

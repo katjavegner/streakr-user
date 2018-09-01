@@ -16,6 +16,7 @@ import {
     @observable token = ""
     @observable userData = ""
     @observable  userState = "login"
+    @observable  campaigns = []
    
 //Login
 @action
@@ -47,6 +48,7 @@ import {
         )
         const visitorHistory = await fullDataResponse.json()
         this.userData = toJS(visitorHistory.user)
+        this.campaigns = toJS(visitorHistory.user.campaigns)
       
     }
 }
